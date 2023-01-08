@@ -1,0 +1,128 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: #f6f6fe ;
+}
+
+.input-group label{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.input-group{
+    width: auto;
+}
+
+label{
+    color: #36373a;
+    font-weight: bold;
+}
+
+input, select{
+    border-radius: 12px !important;
+    padding: 12px 20px !important;
+    width: auto;
+    border: none !important;
+    color: #fff !important;
+    position: relative;
+}
+input[type="date"]::-webkit-calendar-picker-indicator{
+   /* fill: #fff;
+    border-color: #fff !important;
+    color: #fff !important; */
+    /* filter: invert(0.8) sepia(100%) saturate(10000%) hue-rotate(240deg); */
+    filter: invert(1);
+}
+
+select option{
+    background-color: #fff;
+    color: #000;
+}
+
+
+.input-group:nth-child(1) input{
+    background-color: #5858ba ;
+}
+.input-group:nth-child(2) input{
+    background-color: #9fa3e0 ;
+}
+.input-group:nth-child(3) select{
+    background-color: #f58c93 ;
+}
+.input-group:nth-child(4) select{
+    background-color: #6f8efa ;
+}
+
+header{
+    background-color: #f5e9eb;
+}
+
+header, tbody {
+    border-radius: 20px;
+}
+thead {
+    border-radius: 15px;
+    border-bottom: 25px solid #f6f6fe;
+}
+
+thead, tbody{
+    background-color: #fff;
+    /* display: block; */
+    
+}
+
+
+thead th, tbody td{
+    padding: 15px 20px !important;
+    border: 0;
+    font-size: 16px;
+
+}
+thead th{
+    color: #4e4f52;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+tbody td{
+    font-size: 15px;
+    vertical-align: middle;
+    font-weight:500;
+   
+}
+
+thead th svg{
+    margin-left: 10px;
+}
+
+td:nth-child(1), td:nth-child(2){
+    color: #7374c6;
+}
+td:nth-child(3), td:nth-child(4){
+    color: #9e9fa1;
+}
+td:nth-child(5), td:nth-child(6){
+    color: #f58c93;
+}
+
+
+.badge{
+    padding: 10px 15px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.draft{
+    background-color: #f58c93;
+}
+.paid{
+    background-color: #6e8ffa;
+}
+.partpayment{
+    background-color: #5858ba;
+}
